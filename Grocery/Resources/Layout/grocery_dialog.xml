@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/idDHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Add Items to Cart"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/idDHeading"
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Enter Item Name"
+                android:padding="5dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idEditItemName"
+                    android:inputType="text"
+                    android:textSize="14sp"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Enter Item Quantity"
+                android:padding="5dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idEditItemQty"
+                    android:inputType="number"
+                    android:textSize="14sp"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Enter Item Price"
+                android:padding="5dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/idEditItemPrice"
+                    android:inputType="numberDecimal"
+                    android:textSize="14sp"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp"
+                android:weightSum="2">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+                    android:id="@+id/idCancelButton"
+                    android:text="Cancel"
+                    android:textAllCaps="false"
+                    android:background="@drawable/custom_button"
+                    />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+                    android:id="@+id/idAddButton"
+                    android:text="Add"
+                    android:textAllCaps="false"
+                    android:background="@drawable/custom_button"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
