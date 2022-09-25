@@ -1,4 +1,4 @@
-package com.rahulpa.groceryapp
+package com.rushmi.groceryapp
 
 import android.view.LayoutInflater
 import android.view.View
