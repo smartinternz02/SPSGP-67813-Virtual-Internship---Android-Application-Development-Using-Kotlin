@@ -1,4 +1,4 @@
-package com.rahulpa.groceryapp
+package com.rushmi.groceryapp
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
