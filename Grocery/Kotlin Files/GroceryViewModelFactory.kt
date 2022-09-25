@@ -1,4 +1,4 @@
-package com.rahulpa.groceryapp
+package com.rushmi.groceryapp
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
