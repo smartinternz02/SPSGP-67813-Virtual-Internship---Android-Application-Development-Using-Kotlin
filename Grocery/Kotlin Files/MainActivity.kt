@@ -1,4 +1,4 @@
-package com.rahulpa.groceryapp
+package com.rushmi.groceryapp
 
 import android.app.Dialog
 import androidx.appcompat.app.AppCompatActivity
