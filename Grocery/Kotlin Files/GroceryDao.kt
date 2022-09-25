@@ -1,5 +1,5 @@
 
-package com.rahulpa.groceryapp
+package com.rushmi.groceryapp
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
