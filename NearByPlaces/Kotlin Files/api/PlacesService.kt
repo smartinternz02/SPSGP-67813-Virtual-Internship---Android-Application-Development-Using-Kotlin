@@ -1,4 +1,4 @@
-package com.rahulpa.myapplication.api
+package com.rushmi.myapplication.api
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
