@@ -1,5 +1,5 @@
 // Copyright 2020 Google LL
-package com.rahulpa.myapplication.api
+package com.rushmi.myapplication.api
 
 import com.rahulpa.myapplication.model.Place
 import com.google.gson.annotations.SerializedName
