@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Near By Search</string>
+    <string name="title_activity_maps">Near By Search</string>
+    <string name="google_maps_keys">AIzaSyDS97Ky7UfQula5dU0Cfo4zC7_HjlTZg0Q</string>
+</resources>
